@@ -1,0 +1,594 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1A7877F9-9EB1-41F9-B72A-13029648D953}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>TarotProphesizer.My.MyApplication</StartupObject>
+    <RootNamespace>TarotProphesizer</RootNamespace>
+    <AssemblyName>TarotProphesizer</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>TarotProphesizer.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>TarotProphesizer.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MainWindow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainWindow.Designer.vb">
+      <DependentUpon>MainWindow.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MainWindow.resx">
+      <DependentUpon>MainWindow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Abundance.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AceOfCups.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AceOfSwords.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AceOfWands.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Adjustment.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Aeon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Art.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Change.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chariot.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Completion.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cruelty.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Death.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Debauch.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Defeat.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Devil.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Disappointment.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dominion.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Emperor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Empress.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Failure.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fool.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fortune.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Futility.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gain.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HangedMan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Happiness.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hermit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hierophant.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Indolence.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Interference.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KngihtOfDisks.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KnightOfCups.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KnightOfSwords.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KnightOfWands.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Love.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lovers.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lust.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Luxury.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Magus.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Moon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Oppression.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Peace.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pleasure.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Power.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Priestess.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PrinceOfCups.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PrinceOfDisks.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PrinceOfSwords.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PrinceOfWands.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PrincessOfCups.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PrincessOfDisks.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PrincessOfSwords.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PrincessOfWands.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Prudence.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QueenOfCups.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QueenOfDisks.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QueenOfSwords.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QueenOfWands.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ruin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Satiety.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Science.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sorrow.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Star.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Strength.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Strife.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Success.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sun.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Swiftness.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tower.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Truce.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Universe.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Valour.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Victory.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Virtue.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wealth.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Works.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Worry.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card13.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card14.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card15.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card16.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card17.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card18.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card19.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card20.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card22.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card23.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card24.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card25.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card26.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card27.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card28.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card30.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card31.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card32.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card33.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card34.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card35.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card36.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card37.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card38.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card39.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card40.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card41.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card42.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card43.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card44.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card45.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card46.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card47.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card48.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card49.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card50.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card51.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card52.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card53.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card54.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card55.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card56.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card57.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card58.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card59.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card60.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card61.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card62.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card63.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card64.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card65.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card66.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card67.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card68.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card69.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card70.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card71.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card72.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card73.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card74.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card75.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card76.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Card77.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
