@@ -27,6 +27,11 @@ TarotProphesizer
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:TarotProphesizer.My.Resources.Resources.Background1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:TarotProphesizer.My.Resources.Resources.Card1">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
