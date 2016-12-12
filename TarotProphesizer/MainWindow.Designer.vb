@@ -73,13 +73,14 @@ Partial Class MainWindow
         'ProphecyBox
         '
         Me.ProphecyBox.BackColor = System.Drawing.Color.Transparent
+        Me.ProphecyBox.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.ProphecyBox.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.ProphecyBox.Font = New System.Drawing.Font("Palatino Linotype", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ProphecyBox.Font = New System.Drawing.Font("Palatino Linotype", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(161, Byte))
         Me.ProphecyBox.ForeColor = System.Drawing.Color.Azure
-        Me.ProphecyBox.Location = New System.Drawing.Point(0, 513)
+        Me.ProphecyBox.Location = New System.Drawing.Point(0, 390)
         Me.ProphecyBox.Margin = New System.Windows.Forms.Padding(0)
         Me.ProphecyBox.Name = "ProphecyBox"
-        Me.ProphecyBox.Size = New System.Drawing.Size(1008, 180)
+        Me.ProphecyBox.Size = New System.Drawing.Size(1008, 213)
         Me.ProphecyBox.TabIndex = 0
         Me.ProphecyBox.Text = "Label1"
         Me.ProphecyBox.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -94,42 +95,45 @@ Partial Class MainWindow
         Me.MiddlePanel.Dock = System.Windows.Forms.DockStyle.Fill
         Me.MiddlePanel.Location = New System.Drawing.Point(0, 37)
         Me.MiddlePanel.Name = "MiddlePanel"
-        Me.MiddlePanel.Size = New System.Drawing.Size(1008, 693)
+        Me.MiddlePanel.Size = New System.Drawing.Size(1008, 603)
         Me.MiddlePanel.TabIndex = 3
         '
         'MiddleCard
         '
         Me.MiddleCard.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.MiddleCard.BackColor = System.Drawing.Color.Black
+        Me.MiddleCard.BackColor = System.Drawing.Color.Transparent
         Me.MiddleCard.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.MiddleCard.Location = New System.Drawing.Point(364, 48)
+        Me.MiddleCard.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.MiddleCard.Location = New System.Drawing.Point(404, 20)
         Me.MiddleCard.Margin = New System.Windows.Forms.Padding(20)
         Me.MiddleCard.Name = "MiddleCard"
-        Me.MiddleCard.Size = New System.Drawing.Size(282, 445)
+        Me.MiddleCard.Size = New System.Drawing.Size(209, 350)
         Me.MiddleCard.TabIndex = 6
         Me.MiddleCard.TabStop = False
         '
         'RightCard
         '
         Me.RightCard.Anchor = System.Windows.Forms.AnchorStyles.Right
-        Me.RightCard.BackColor = System.Drawing.Color.Black
+        Me.RightCard.BackColor = System.Drawing.Color.Transparent
         Me.RightCard.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.RightCard.Location = New System.Drawing.Point(686, 48)
+        Me.RightCard.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.RightCard.Location = New System.Drawing.Point(653, 20)
         Me.RightCard.Margin = New System.Windows.Forms.Padding(20)
         Me.RightCard.Name = "RightCard"
-        Me.RightCard.Size = New System.Drawing.Size(282, 445)
+        Me.RightCard.Size = New System.Drawing.Size(209, 350)
         Me.RightCard.TabIndex = 5
         Me.RightCard.TabStop = False
         '
         'LeftCard
         '
         Me.LeftCard.Anchor = System.Windows.Forms.AnchorStyles.Left
-        Me.LeftCard.BackColor = System.Drawing.Color.Black
+        Me.LeftCard.BackColor = System.Drawing.Color.Transparent
         Me.LeftCard.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.LeftCard.Location = New System.Drawing.Point(42, 48)
+        Me.LeftCard.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.LeftCard.Location = New System.Drawing.Point(155, 20)
         Me.LeftCard.Margin = New System.Windows.Forms.Padding(20)
         Me.LeftCard.Name = "LeftCard"
-        Me.LeftCard.Size = New System.Drawing.Size(282, 445)
+        Me.LeftCard.Size = New System.Drawing.Size(209, 350)
         Me.LeftCard.TabIndex = 4
         Me.LeftCard.TabStop = False
         '
@@ -139,9 +143,11 @@ Partial Class MainWindow
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.TarotProphesizer.My.Resources.Resources.Background1
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(1008, 730)
+        Me.ClientSize = New System.Drawing.Size(1008, 640)
         Me.Controls.Add(Me.MiddlePanel)
         Me.Controls.Add(Me.MenuPanel)
+        Me.MaximizeBox = False
+        Me.MinimizeBox = False
         Me.Name = "MainWindow"
         Me.Text = "The Card Oracle"
         Me.MenuPanel.ResumeLayout(False)

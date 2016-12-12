@@ -32,6 +32,11 @@ TarotProphesizer
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:TarotProphesizer.My.Resources.Resources.Card0">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:TarotProphesizer.My.Resources.Resources.Card1">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -102,97 +107,7 @@ TarotProphesizer
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="P:TarotProphesizer.My.Resources.Resources.Card22">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:TarotProphesizer.My.Resources.Resources.Card23">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:TarotProphesizer.My.Resources.Resources.Card24">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:TarotProphesizer.My.Resources.Resources.Card25">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:TarotProphesizer.My.Resources.Resources.Card26">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:TarotProphesizer.My.Resources.Resources.Card27">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:TarotProphesizer.My.Resources.Resources.Card28">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:TarotProphesizer.My.Resources.Resources.Card29">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
 <member name="P:TarotProphesizer.My.Resources.Resources.Card3">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:TarotProphesizer.My.Resources.Resources.Card30">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:TarotProphesizer.My.Resources.Resources.Card31">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:TarotProphesizer.My.Resources.Resources.Card32">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:TarotProphesizer.My.Resources.Resources.Card33">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:TarotProphesizer.My.Resources.Resources.Card34">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:TarotProphesizer.My.Resources.Resources.Card35">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:TarotProphesizer.My.Resources.Resources.Card36">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:TarotProphesizer.My.Resources.Resources.Card37">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:TarotProphesizer.My.Resources.Resources.Card38">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:TarotProphesizer.My.Resources.Resources.Card39">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
@@ -202,107 +117,7 @@ TarotProphesizer
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="P:TarotProphesizer.My.Resources.Resources.Card40">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:TarotProphesizer.My.Resources.Resources.Card41">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:TarotProphesizer.My.Resources.Resources.Card42">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:TarotProphesizer.My.Resources.Resources.Card43">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:TarotProphesizer.My.Resources.Resources.Card44">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:TarotProphesizer.My.Resources.Resources.Card45">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:TarotProphesizer.My.Resources.Resources.Card46">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:TarotProphesizer.My.Resources.Resources.Card47">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:TarotProphesizer.My.Resources.Resources.Card48">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:TarotProphesizer.My.Resources.Resources.Card49">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
 <member name="P:TarotProphesizer.My.Resources.Resources.Card5">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:TarotProphesizer.My.Resources.Resources.Card50">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:TarotProphesizer.My.Resources.Resources.Card51">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:TarotProphesizer.My.Resources.Resources.Card52">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:TarotProphesizer.My.Resources.Resources.Card53">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:TarotProphesizer.My.Resources.Resources.Card54">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:TarotProphesizer.My.Resources.Resources.Card55">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:TarotProphesizer.My.Resources.Resources.Card56">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:TarotProphesizer.My.Resources.Resources.Card57">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:TarotProphesizer.My.Resources.Resources.Card58">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:TarotProphesizer.My.Resources.Resources.Card59">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
@@ -312,97 +127,7 @@ TarotProphesizer
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="P:TarotProphesizer.My.Resources.Resources.Card60">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:TarotProphesizer.My.Resources.Resources.Card61">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:TarotProphesizer.My.Resources.Resources.Card62">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:TarotProphesizer.My.Resources.Resources.Card63">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:TarotProphesizer.My.Resources.Resources.Card64">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:TarotProphesizer.My.Resources.Resources.Card65">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:TarotProphesizer.My.Resources.Resources.Card66">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:TarotProphesizer.My.Resources.Resources.Card67">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:TarotProphesizer.My.Resources.Resources.Card68">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:TarotProphesizer.My.Resources.Resources.Card69">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
 <member name="P:TarotProphesizer.My.Resources.Resources.Card7">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:TarotProphesizer.My.Resources.Resources.Card70">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:TarotProphesizer.My.Resources.Resources.Card71">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:TarotProphesizer.My.Resources.Resources.Card72">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:TarotProphesizer.My.Resources.Resources.Card73">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:TarotProphesizer.My.Resources.Resources.Card74">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:TarotProphesizer.My.Resources.Resources.Card75">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:TarotProphesizer.My.Resources.Resources.Card76">
-<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:TarotProphesizer.My.Resources.Resources.Card77">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
