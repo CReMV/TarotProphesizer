@@ -142,5 +142,10 @@ TarotProphesizer
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:TarotProphesizer.My.Resources.Resources.Parchment">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 </members>
 </doc>

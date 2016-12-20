@@ -9,3 +9,30 @@ D:\Google Drive\VB Projects\TarotProphesizer\TarotProphesizer\obj\Debug\TarotPro
 D:\Google Drive\VB Projects\TarotProphesizer\TarotProphesizer\obj\Debug\TarotProphesizer.exe
 D:\Google Drive\VB Projects\TarotProphesizer\TarotProphesizer\obj\Debug\TarotProphesizer.xml
 D:\Google Drive\VB Projects\TarotProphesizer\TarotProphesizer\obj\Debug\TarotProphesizer.pdb
+C:\Users\user\Downloads\TarotProphesizer-20161218T213734Z\TarotProphesizer\TarotProphesizer\bin\Debug\TarotProphesizer.exe.config
+C:\Users\user\Downloads\TarotProphesizer-20161218T213734Z\TarotProphesizer\TarotProphesizer\bin\Debug\TarotProphesizer.exe
+C:\Users\user\Downloads\TarotProphesizer-20161218T213734Z\TarotProphesizer\TarotProphesizer\bin\Debug\TarotProphesizer.pdb
+C:\Users\user\Downloads\TarotProphesizer-20161218T213734Z\TarotProphesizer\TarotProphesizer\bin\Debug\TarotProphesizer.xml
+C:\Users\user\Downloads\TarotProphesizer-20161218T213734Z\TarotProphesizer\TarotProphesizer\obj\Debug\TarotProphesizer.vbprojResolveAssemblyReference.cache
+C:\Users\user\Downloads\TarotProphesizer-20161218T213734Z\TarotProphesizer\TarotProphesizer\obj\Debug\TarotProphesizer.MainWindow.resources
+C:\Users\user\Downloads\TarotProphesizer-20161218T213734Z\TarotProphesizer\TarotProphesizer\obj\Debug\TarotProphesizer.Resources.resources
+C:\Users\user\Downloads\TarotProphesizer-20161218T213734Z\TarotProphesizer\TarotProphesizer\obj\Debug\TarotProphesizer.vbproj.GenerateResource.Cache
+C:\Users\user\Downloads\TarotProphesizer-20161218T213734Z\TarotProphesizer\TarotProphesizer\obj\Debug\TarotProphesizer.exe
+C:\Users\user\Downloads\TarotProphesizer-20161218T213734Z\TarotProphesizer\TarotProphesizer\obj\Debug\TarotProphesizer.xml
+C:\Users\user\Downloads\TarotProphesizer-20161218T213734Z\TarotProphesizer\TarotProphesizer\obj\Debug\TarotProphesizer.pdb
+C:\Users\user\Downloads\TarotProphesizer-20161218T213734Z\TarotProphesizer\TarotProphesizer\obj\Debug\TarotProphesizer.Form1.resources
+C:\Users\user\Downloads\TarotProphesizer-20161218T213734Z\TarotProphesizer\TarotProphesizer\obj\Debug\TarotProphesizer.Form2.resources
+C:\Users\CVasilas\Desktop\TarotProphesizer\TarotProphesizer\bin\Debug\TarotProphesizer.exe.config
+C:\Users\CVasilas\Desktop\TarotProphesizer\TarotProphesizer\obj\Debug\TarotProphesizer.exe
+C:\Users\CVasilas\Desktop\TarotProphesizer\TarotProphesizer\obj\Debug\TarotProphesizer.xml
+C:\Users\CVasilas\Desktop\TarotProphesizer\TarotProphesizer\obj\Debug\TarotProphesizer.pdb
+C:\Users\CVasilas\Desktop\TarotProphesizer\TarotProphesizer\bin\Debug\TarotProphesizer.exe
+C:\Users\CVasilas\Desktop\TarotProphesizer\TarotProphesizer\bin\Debug\TarotProphesizer.pdb
+C:\Users\CVasilas\Desktop\TarotProphesizer\TarotProphesizer\bin\Debug\TarotProphesizer.xml
+C:\Users\CVasilas\Desktop\TarotProphesizer\TarotProphesizer\obj\Debug\TarotProphesizer.vbprojResolveAssemblyReference.cache
+C:\Users\CVasilas\Desktop\TarotProphesizer\TarotProphesizer\obj\Debug\TarotProphesizer.Resources.resources
+C:\Users\CVasilas\Desktop\TarotProphesizer\TarotProphesizer\obj\Debug\TarotProphesizer.vbproj.GenerateResource.Cache
+C:\Users\CVasilas\Desktop\TarotProphesizer\TarotProphesizer\obj\Debug\TarotProphesizer.Intro.resources
+C:\Users\CVasilas\Desktop\TarotProphesizer\TarotProphesizer\obj\Debug\TarotProphesizer.NameSet.resources
+C:\Users\CVasilas\Desktop\TarotProphesizer\TarotProphesizer\obj\Debug\TarotProphesizer.CardPicker.resources
+C:\Users\CVasilas\Desktop\TarotProphesizer\TarotProphesizer\obj\Debug\TarotProphesizer.Prophecy.resources

@@ -72,11 +72,29 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MainWindow.vb">
+    <Compile Include="Intro.Designer.vb">
+      <DependentUpon>Intro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Intro.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MainWindow.Designer.vb">
-      <DependentUpon>MainWindow.vb</DependentUpon>
+    <Compile Include="NameSet.Designer.vb">
+      <DependentUpon>NameSet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NameSet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CardPicker.Designer.vb">
+      <DependentUpon>CardPicker.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CardPicker.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prophecy.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prophecy.Designer.vb">
+      <DependentUpon>Prophecy.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -96,8 +114,17 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="MainWindow.resx">
-      <DependentUpon>MainWindow.vb</DependentUpon>
+    <EmbeddedResource Include="Intro.resx">
+      <DependentUpon>Intro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NameSet.resx">
+      <DependentUpon>NameSet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CardPicker.resx">
+      <DependentUpon>CardPicker.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prophecy.resx">
+      <DependentUpon>Prophecy.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -588,6 +615,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Card0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\parchment_alpha.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\parchment_big3_19.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,0 +1,14 @@
+D:\Google Drive\VB Projects\TarotProphesizer\TarotProphesizer\bin\Release\TarotProphesizer.exe.config
+D:\Google Drive\VB Projects\TarotProphesizer\TarotProphesizer\bin\Release\TarotProphesizer.exe
+D:\Google Drive\VB Projects\TarotProphesizer\TarotProphesizer\bin\Release\TarotProphesizer.pdb
+D:\Google Drive\VB Projects\TarotProphesizer\TarotProphesizer\bin\Release\TarotProphesizer.xml
+D:\Google Drive\VB Projects\TarotProphesizer\TarotProphesizer\obj\Release\TarotProphesizer.vbprojResolveAssemblyReference.cache
+D:\Google Drive\VB Projects\TarotProphesizer\TarotProphesizer\obj\Release\TarotProphesizer.Intro.resources
+D:\Google Drive\VB Projects\TarotProphesizer\TarotProphesizer\obj\Release\TarotProphesizer.NameSet.resources
+D:\Google Drive\VB Projects\TarotProphesizer\TarotProphesizer\obj\Release\TarotProphesizer.CardPicker.resources
+D:\Google Drive\VB Projects\TarotProphesizer\TarotProphesizer\obj\Release\TarotProphesizer.Prophecy.resources
+D:\Google Drive\VB Projects\TarotProphesizer\TarotProphesizer\obj\Release\TarotProphesizer.Resources.resources
+D:\Google Drive\VB Projects\TarotProphesizer\TarotProphesizer\obj\Release\TarotProphesizer.vbproj.GenerateResource.Cache
+D:\Google Drive\VB Projects\TarotProphesizer\TarotProphesizer\obj\Release\TarotProphesizer.exe
+D:\Google Drive\VB Projects\TarotProphesizer\TarotProphesizer\obj\Release\TarotProphesizer.xml
+D:\Google Drive\VB Projects\TarotProphesizer\TarotProphesizer\obj\Release\TarotProphesizer.pdb
