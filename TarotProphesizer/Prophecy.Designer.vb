@@ -39,10 +39,10 @@ Partial Class Prophecy
         Me.ProphecyBox.Font = New System.Drawing.Font("Palatino Linotype", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(161, Byte))
         Me.ProphecyBox.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.ProphecyBox.Image = Global.TarotProphesizer.My.Resources.Resources.Parchment
-        Me.ProphecyBox.Location = New System.Drawing.Point(395, 111)
+        Me.ProphecyBox.Location = New System.Drawing.Point(380, 110)
         Me.ProphecyBox.Margin = New System.Windows.Forms.Padding(0)
         Me.ProphecyBox.Name = "ProphecyBox"
-        Me.ProphecyBox.Size = New System.Drawing.Size(635, 539)
+        Me.ProphecyBox.Size = New System.Drawing.Size(636, 539)
         Me.ProphecyBox.TabIndex = 0
         Me.ProphecyBox.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
@@ -51,7 +51,7 @@ Partial Class Prophecy
         Me.MiddleCard.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.MiddleCard.BackColor = System.Drawing.Color.Transparent
         Me.MiddleCard.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.MiddleCard.Location = New System.Drawing.Point(93, 174)
+        Me.MiddleCard.Location = New System.Drawing.Point(86, 229)
         Me.MiddleCard.Margin = New System.Windows.Forms.Padding(2)
         Me.MiddleCard.Name = "MiddleCard"
         Me.MiddleCard.Size = New System.Drawing.Size(209, 350)
@@ -63,7 +63,7 @@ Partial Class Prophecy
         Me.RightCard.Anchor = System.Windows.Forms.AnchorStyles.Right
         Me.RightCard.BackColor = System.Drawing.Color.Transparent
         Me.RightCard.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.RightCard.Location = New System.Drawing.Point(184, 11)
+        Me.RightCard.Location = New System.Drawing.Point(169, 11)
         Me.RightCard.Margin = New System.Windows.Forms.Padding(2)
         Me.RightCard.Name = "RightCard"
         Me.RightCard.Size = New System.Drawing.Size(209, 350)
@@ -75,7 +75,7 @@ Partial Class Prophecy
         Me.LeftCard.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.LeftCard.BackColor = System.Drawing.Color.Transparent
         Me.LeftCard.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.LeftCard.Location = New System.Drawing.Point(11, 290)
+        Me.LeftCard.Location = New System.Drawing.Point(11, 407)
         Me.LeftCard.Margin = New System.Windows.Forms.Padding(2)
         Me.LeftCard.Name = "LeftCard"
         Me.LeftCard.Size = New System.Drawing.Size(209, 350)
@@ -88,7 +88,7 @@ Partial Class Prophecy
         Me.CloseButton.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.CloseButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(161, Byte))
         Me.CloseButton.ForeColor = System.Drawing.Color.Crimson
-        Me.CloseButton.Location = New System.Drawing.Point(997, 9)
+        Me.CloseButton.Location = New System.Drawing.Point(983, 9)
         Me.CloseButton.Name = "CloseButton"
         Me.CloseButton.Size = New System.Drawing.Size(33, 30)
         Me.CloseButton.TabIndex = 25
@@ -101,7 +101,7 @@ Partial Class Prophecy
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(1039, 659)
+        Me.ClientSize = New System.Drawing.Size(1024, 768)
         Me.Controls.Add(Me.CloseButton)
         Me.Controls.Add(Me.RightCard)
         Me.Controls.Add(Me.ProphecyBox)

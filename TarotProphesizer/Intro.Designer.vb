@@ -61,7 +61,7 @@ Partial Class Intro
         Me.IntroNextButton.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.IntroNextButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(161, Byte))
         Me.IntroNextButton.ForeColor = System.Drawing.Color.Lavender
-        Me.IntroNextButton.Location = New System.Drawing.Point(835, 612)
+        Me.IntroNextButton.Location = New System.Drawing.Point(912, 601)
         Me.IntroNextButton.Name = "IntroNextButton"
         Me.IntroNextButton.Size = New System.Drawing.Size(100, 30)
         Me.IntroNextButton.TabIndex = 2
@@ -73,7 +73,7 @@ Partial Class Intro
         Me.IntroInfo.BackColor = System.Drawing.Color.Transparent
         Me.IntroInfo.Font = New System.Drawing.Font("Linux Libertine Display G", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(161, Byte))
         Me.IntroInfo.Image = Global.TarotProphesizer.My.Resources.Resources.Parchment
-        Me.IntroInfo.Location = New System.Drawing.Point(148, 102)
+        Me.IntroInfo.Location = New System.Drawing.Point(201, 102)
         Me.IntroInfo.Name = "IntroInfo"
         Me.IntroInfo.Size = New System.Drawing.Size(640, 540)
         Me.IntroInfo.TabIndex = 3
@@ -86,7 +86,7 @@ Partial Class Intro
         Me.CloseButton.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.CloseButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(161, Byte))
         Me.CloseButton.ForeColor = System.Drawing.Color.Crimson
-        Me.CloseButton.Location = New System.Drawing.Point(902, 9)
+        Me.CloseButton.Location = New System.Drawing.Point(979, 9)
         Me.CloseButton.Name = "CloseButton"
         Me.CloseButton.Size = New System.Drawing.Size(33, 30)
         Me.CloseButton.TabIndex = 4
@@ -99,7 +99,7 @@ Partial Class Intro
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(947, 651)
+        Me.ClientSize = New System.Drawing.Size(1024, 640)
         Me.Controls.Add(Me.CloseButton)
         Me.Controls.Add(Me.IntroInfo)
         Me.Controls.Add(Me.IntroNextButton)

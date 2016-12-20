@@ -78,7 +78,7 @@ Partial Class CardPicker
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(161, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.Lavender
-        Me.Label1.Location = New System.Drawing.Point(301, 639)
+        Me.Label1.Location = New System.Drawing.Point(304, 682)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(419, 37)
         Me.Label1.TabIndex = 0
@@ -310,7 +310,7 @@ Partial Class CardPicker
         Me.CardPickerButton.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.CardPickerButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(161, Byte))
         Me.CardPickerButton.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.CardPickerButton.Location = New System.Drawing.Point(455, 588)
+        Me.CardPickerButton.Location = New System.Drawing.Point(455, 645)
         Me.CardPickerButton.Name = "CardPickerButton"
         Me.CardPickerButton.Size = New System.Drawing.Size(113, 37)
         Me.CardPickerButton.TabIndex = 23
@@ -336,7 +336,7 @@ Partial Class CardPicker
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(1023, 685)
+        Me.ClientSize = New System.Drawing.Size(1024, 728)
         Me.Controls.Add(Me.CloseButton)
         Me.Controls.Add(Me.CardPickerButton)
         Me.Controls.Add(Me.PictureBox22)
