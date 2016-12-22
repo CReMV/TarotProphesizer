@@ -306,13 +306,13 @@ Partial Class CardPicker
         '
         'CardPickerButton
         '
-        Me.CardPickerButton.BackColor = System.Drawing.Color.Transparent
+        Me.CardPickerButton.BackColor = System.Drawing.Color.Black
         Me.CardPickerButton.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.CardPickerButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(161, Byte))
-        Me.CardPickerButton.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.CardPickerButton.Location = New System.Drawing.Point(455, 645)
+        Me.CardPickerButton.ForeColor = System.Drawing.Color.Red
+        Me.CardPickerButton.Location = New System.Drawing.Point(460, 645)
         Me.CardPickerButton.Name = "CardPickerButton"
-        Me.CardPickerButton.Size = New System.Drawing.Size(113, 37)
+        Me.CardPickerButton.Size = New System.Drawing.Size(103, 37)
         Me.CardPickerButton.TabIndex = 23
         Me.CardPickerButton.Text = "DONE!"
         Me.CardPickerButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter

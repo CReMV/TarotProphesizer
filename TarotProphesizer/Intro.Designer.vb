@@ -60,7 +60,7 @@ Partial Class Intro
         Me.IntroNextButton.BackColor = System.Drawing.Color.Transparent
         Me.IntroNextButton.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.IntroNextButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(161, Byte))
-        Me.IntroNextButton.ForeColor = System.Drawing.Color.Lavender
+        Me.IntroNextButton.ForeColor = System.Drawing.Color.Red
         Me.IntroNextButton.Location = New System.Drawing.Point(912, 601)
         Me.IntroNextButton.Name = "IntroNextButton"
         Me.IntroNextButton.Size = New System.Drawing.Size(100, 30)

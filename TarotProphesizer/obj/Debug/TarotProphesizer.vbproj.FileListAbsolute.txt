@@ -3,7 +3,6 @@ D:\Google Drive\VB Projects\TarotProphesizer\TarotProphesizer\bin\Debug\TarotPro
 D:\Google Drive\VB Projects\TarotProphesizer\TarotProphesizer\bin\Debug\TarotProphesizer.pdb
 D:\Google Drive\VB Projects\TarotProphesizer\TarotProphesizer\bin\Debug\TarotProphesizer.xml
 D:\Google Drive\VB Projects\TarotProphesizer\TarotProphesizer\obj\Debug\TarotProphesizer.vbprojResolveAssemblyReference.cache
-D:\Google Drive\VB Projects\TarotProphesizer\TarotProphesizer\obj\Debug\TarotProphesizer.MainWindow.resources
 D:\Google Drive\VB Projects\TarotProphesizer\TarotProphesizer\obj\Debug\TarotProphesizer.Resources.resources
 D:\Google Drive\VB Projects\TarotProphesizer\TarotProphesizer\obj\Debug\TarotProphesizer.vbproj.GenerateResource.Cache
 D:\Google Drive\VB Projects\TarotProphesizer\TarotProphesizer\obj\Debug\TarotProphesizer.exe
@@ -36,3 +35,7 @@ C:\Users\CVasilas\Desktop\TarotProphesizer\TarotProphesizer\obj\Debug\TarotProph
 C:\Users\CVasilas\Desktop\TarotProphesizer\TarotProphesizer\obj\Debug\TarotProphesizer.NameSet.resources
 C:\Users\CVasilas\Desktop\TarotProphesizer\TarotProphesizer\obj\Debug\TarotProphesizer.CardPicker.resources
 C:\Users\CVasilas\Desktop\TarotProphesizer\TarotProphesizer\obj\Debug\TarotProphesizer.Prophecy.resources
+D:\Google Drive\VB Projects\TarotProphesizer\TarotProphesizer\obj\Debug\TarotProphesizer.Intro.resources
+D:\Google Drive\VB Projects\TarotProphesizer\TarotProphesizer\obj\Debug\TarotProphesizer.NameSet.resources
+D:\Google Drive\VB Projects\TarotProphesizer\TarotProphesizer\obj\Debug\TarotProphesizer.CardPicker.resources
+D:\Google Drive\VB Projects\TarotProphesizer\TarotProphesizer\obj\Debug\TarotProphesizer.Prophecy.resources

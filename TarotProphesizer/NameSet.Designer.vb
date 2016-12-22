@@ -43,20 +43,22 @@ Partial Class NameSet
         '
         'NameBox
         '
-        Me.NameBox.Location = New System.Drawing.Point(114, 169)
+        Me.NameBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(161, Byte))
+        Me.NameBox.Location = New System.Drawing.Point(188, 163)
         Me.NameBox.Name = "NameBox"
-        Me.NameBox.Size = New System.Drawing.Size(244, 20)
+        Me.NameBox.Size = New System.Drawing.Size(100, 26)
         Me.NameBox.TabIndex = 1
         Me.NameBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'NameSetButton
         '
-        Me.NameSetButton.BackColor = System.Drawing.Color.Transparent
+        Me.NameSetButton.BackColor = System.Drawing.Color.Black
         Me.NameSetButton.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.NameSetButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(161, Byte))
-        Me.NameSetButton.Location = New System.Drawing.Point(188, 192)
+        Me.NameSetButton.ForeColor = System.Drawing.Color.Red
+        Me.NameSetButton.Location = New System.Drawing.Point(198, 192)
         Me.NameSetButton.Name = "NameSetButton"
-        Me.NameSetButton.Size = New System.Drawing.Size(100, 28)
+        Me.NameSetButton.Size = New System.Drawing.Size(79, 28)
         Me.NameSetButton.TabIndex = 2
         Me.NameSetButton.Text = "DONE!"
         Me.NameSetButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -67,7 +69,7 @@ Partial Class NameSet
         Me.CloseButton.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.CloseButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(161, Byte))
         Me.CloseButton.ForeColor = System.Drawing.Color.Crimson
-        Me.CloseButton.Location = New System.Drawing.Point(874, 9)
+        Me.CloseButton.Location = New System.Drawing.Point(979, 9)
         Me.CloseButton.Name = "CloseButton"
         Me.CloseButton.Size = New System.Drawing.Size(33, 30)
         Me.CloseButton.TabIndex = 25

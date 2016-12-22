@@ -28,9 +28,12 @@ Partial Class Prophecy
         Me.RightCard = New System.Windows.Forms.PictureBox()
         Me.LeftCard = New System.Windows.Forms.PictureBox()
         Me.CloseButton = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Panel1 = New System.Windows.Forms.Panel()
         CType(Me.MiddleCard, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.RightCard, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LeftCard, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
         'ProphecyBox
@@ -38,11 +41,10 @@ Partial Class Prophecy
         Me.ProphecyBox.BackColor = System.Drawing.Color.Transparent
         Me.ProphecyBox.Font = New System.Drawing.Font("Palatino Linotype", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(161, Byte))
         Me.ProphecyBox.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.ProphecyBox.Image = Global.TarotProphesizer.My.Resources.Resources.Parchment
-        Me.ProphecyBox.Location = New System.Drawing.Point(380, 110)
+        Me.ProphecyBox.Location = New System.Drawing.Point(60, 40)
         Me.ProphecyBox.Margin = New System.Windows.Forms.Padding(0)
         Me.ProphecyBox.Name = "ProphecyBox"
-        Me.ProphecyBox.Size = New System.Drawing.Size(636, 539)
+        Me.ProphecyBox.Size = New System.Drawing.Size(536, 428)
         Me.ProphecyBox.TabIndex = 0
         Me.ProphecyBox.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
@@ -95,6 +97,29 @@ Partial Class Prophecy
         Me.CloseButton.Text = "X"
         Me.CloseButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
+        'Label1
+        '
+        Me.Label1.BackColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.Label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(161, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.Red
+        Me.Label1.Location = New System.Drawing.Point(935, 728)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(77, 31)
+        Me.Label1.TabIndex = 26
+        Me.Label1.Text = "RETRY!"
+        Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Panel1
+        '
+        Me.Panel1.BackColor = System.Drawing.Color.Transparent
+        Me.Panel1.BackgroundImage = Global.TarotProphesizer.My.Resources.Resources.Parchment
+        Me.Panel1.Controls.Add(Me.ProphecyBox)
+        Me.Panel1.Location = New System.Drawing.Point(383, 218)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(646, 507)
+        Me.Panel1.TabIndex = 27
+        '
         'Prophecy
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -102,9 +127,10 @@ Partial Class Prophecy
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1024, 768)
+        Me.Controls.Add(Me.Panel1)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.CloseButton)
         Me.Controls.Add(Me.RightCard)
-        Me.Controls.Add(Me.ProphecyBox)
         Me.Controls.Add(Me.MiddleCard)
         Me.Controls.Add(Me.LeftCard)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
@@ -116,6 +142,7 @@ Partial Class Prophecy
         CType(Me.MiddleCard, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.RightCard, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LeftCard, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel1.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub
@@ -124,4 +151,6 @@ Partial Class Prophecy
     Friend WithEvents RightCard As PictureBox
     Friend WithEvents LeftCard As PictureBox
     Friend WithEvents CloseButton As Label
+    Friend WithEvents Label1 As Label
+    Friend WithEvents Panel1 As Panel
 End Class
