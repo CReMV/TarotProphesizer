@@ -310,7 +310,7 @@ Partial Class CardPicker
         Me.CardPickerButton.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.CardPickerButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(161, Byte))
         Me.CardPickerButton.ForeColor = System.Drawing.Color.Red
-        Me.CardPickerButton.Location = New System.Drawing.Point(460, 645)
+        Me.CardPickerButton.Location = New System.Drawing.Point(909, 682)
         Me.CardPickerButton.Name = "CardPickerButton"
         Me.CardPickerButton.Size = New System.Drawing.Size(103, 37)
         Me.CardPickerButton.TabIndex = 23

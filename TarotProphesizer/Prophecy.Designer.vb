@@ -41,10 +41,10 @@ Partial Class Prophecy
         Me.ProphecyBox.BackColor = System.Drawing.Color.Transparent
         Me.ProphecyBox.Font = New System.Drawing.Font("Palatino Linotype", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(161, Byte))
         Me.ProphecyBox.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.ProphecyBox.Location = New System.Drawing.Point(60, 40)
+        Me.ProphecyBox.Location = New System.Drawing.Point(53, 48)
         Me.ProphecyBox.Margin = New System.Windows.Forms.Padding(0)
         Me.ProphecyBox.Name = "ProphecyBox"
-        Me.ProphecyBox.Size = New System.Drawing.Size(536, 428)
+        Me.ProphecyBox.Size = New System.Drawing.Size(536, 542)
         Me.ProphecyBox.TabIndex = 0
         Me.ProphecyBox.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
@@ -114,10 +114,11 @@ Partial Class Prophecy
         '
         Me.Panel1.BackColor = System.Drawing.Color.Transparent
         Me.Panel1.BackgroundImage = Global.TarotProphesizer.My.Resources.Resources.Parchment
+        Me.Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel1.Controls.Add(Me.ProphecyBox)
-        Me.Panel1.Location = New System.Drawing.Point(383, 218)
+        Me.Panel1.Location = New System.Drawing.Point(383, 59)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(646, 507)
+        Me.Panel1.Size = New System.Drawing.Size(633, 666)
         Me.Panel1.TabIndex = 27
         '
         'Prophecy
